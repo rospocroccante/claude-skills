@@ -30,8 +30,3 @@ If `~/.claude/skills` already exists, clone elsewhere and symlink each skill dir
 
 The rules file defaults to `~/.config/claude-skills-publish/rules.json` (override with `CLAUDE_SKILLS_PUBLISH_RULES`). It lists the skills to exclude, extra project skills to copy, ordered regex replacements, section overrides, and the blocklist. A replacement with zero matches is reported, so a stale rule shows up after a skill is edited. A blocklist hit leaves the rewritten tree in place for inspection and exits with status 2.
 
-## Not included
-
-- `hooks-audit`: third party, from github.com/DarioFontanel/hooks-audit.
-- Plugin skills from marketplaces (superpowers, skill-creator, frontend-design, qodo, caveman, the claude-code-skills bundles): installed through `enabledPlugins` in `~/.claude/settings.json`.
-- The 59 per-tool skills that unity-mcp generates inside a Unity project.
