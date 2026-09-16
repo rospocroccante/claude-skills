@@ -6,9 +6,7 @@ Sanitised copies of the custom skills used with Claude Code. The live skills sta
 
 | Skill | Use when | Files |
 |---|---|---|
-| `aircraft-aero-modeling` | Modelling aircraft, drones, wings or fuselages in Blender or CAD, or when dimensional precision matters | 1 |
 | `anti-slop-writing` | Any prose, English or Italian. Ships `references/patterns.md` and `scripts/slop_check.py` | 3 |
-| `builda-site-template` | Scaffolding a marketing, agency or portfolio site. Bundles the BUILDA Next.js 14 boilerplate in `template/` | 106 |
 | `futurismo-writing-skill` | Meeting talking points, standup notes, anything the user reads aloud | 1 |
 | `gauntlet-loop` | Work that has to beat an external bar: builder plus fresh-context critic, repeated. Adapted from somethingbig.ai/gauntlet-loop | 2 |
 | `model-roles` | Spawning subagents across models: Fable as judge, Opus as executor, with a variant for accounts without Fable | 1 |
