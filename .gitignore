@@ -1,0 +1,10 @@
+# Third-party skills installed into this directory, versioned upstream
+hooks-audit/
+# Managed by claude.ai sync
+synced/
+# OS and build noise
+.DS_Store
+**/node_modules/
+**/.next/
+**/.env
+**/.env.local
