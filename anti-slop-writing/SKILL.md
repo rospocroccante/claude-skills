@@ -23,6 +23,7 @@ These never appear in generated prose. No exceptions unless the user explicitly 
 **Rhetorical templates**
 - Antithesis pivots: "not X, but Y", "it's not about X, it's about Y", "less X, more Y", "X, not Y" as a dramatic close. Italian: "non è X, è Y", "non solo X, ma anche Y", "più X che Y" used as a flourish.
 - Punchlines and mottos: one-line thesis statements, pull quotes, "Bottom line:", "The result:", "In one line:", "La verità è che". A short dramatic sentence closing a paragraph ("And that changes everything.") counts.
+- Label-colon openers: a one- or two-word label with a colon that announces the sentence instead of saying it. "Heads up:", "Quick note:", "One thing:", "Side note:", "Pro tip:", "Fun fact:", "TL;DR:", "Just a heads-up:", in Italian "Una cosa:", "Piccola nota:", "Nota a margine:", "Un'ultima cosa:". Delete the label; the sentence announces itself. "Note:" and "Nota:" alone are allowed in reference docs when they mark a real caveat, never in messages.
 - Stock endings: "In conclusion", "Ultimately", "At the end of the day", "In conclusione", "In sintesi", and any recap paragraph that restates what the text just said. End on the last piece of content instead.
 - Triumphant tricolons as closers ("faster, cheaper, and smarter").
 - Participial result tails: a comma followed by "ensuring", "allowing", "enabling", "empowering", "helping", or in Italian "garantendo", "permettendo", "consentendo", "assicurando". State the outcome as its own sentence or cut it.

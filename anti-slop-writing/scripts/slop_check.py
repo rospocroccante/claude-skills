@@ -34,6 +34,10 @@ HARD_PHRASES = [
     r"\ball'avanguardia\b", r"\bpunto di svolta\b", r"\bnon solo\b.{0,60}\bma anche\b",
     r"\bun ventaglio di\b", r"\ba 360 gradi\b", r"\bin conclusione\b", r"\bin sintesi\b",
     r"\bsenza precedenti\b", r"\bcambia(?:re)? le regole del gioco\b",
+    # Label-colon openers, both languages: a label announcing the sentence instead of saying it
+    r"(?:^|[.!?]\s+)(?:just a )?(?:heads[- ]up|quick (?:note|heads[- ]up|thing|one|update)"
+    r"|one (?:more )?(?:thing|note)|side note|small note|minor note|pro tip|fun fact"
+    r"|friendly reminder|tl;?dr|una cosa|un'?ultima cosa|piccola nota|nota a margine|avviso):",
 ]
 
 REVIEW_PATTERNS = [
@@ -51,6 +55,7 @@ REVIEW_PATTERNS = [
     (r"\b(?:landscape|panorama)\b", "figurative landscape (check context)"),
     (r"\b(?:sfrutt\w+|harness\w*|foster\w*|empower\w*)\b", "stock verb (check context)"),
     (r"\b(?:bottom line|the result:|in one line|la verit(?:à|a') (?:è|e'))\b", "punchline marker"),
+    (r"(?:^|[.!?]\s+)(?:note|nota|attenzione|important|importante):", "label-colon opener (allowed only as a real caveat in reference docs)"),
     (r"[\U0001F300-\U0001FAFF\u2600-\u27BF]", "emoji or decorative symbol"),
 ]
 

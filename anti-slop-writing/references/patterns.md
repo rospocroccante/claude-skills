@@ -46,6 +46,17 @@ Good: delete the line. If the point was not made by the preceding text, fix the 
 Bad: `E questo cambia tutto.`
 Good: delete. State the specific consequence instead: `Con questo vincolo, un agente compromesso perde le deleghe entro un minuto.`
 
+The same family, at the front of a sentence: a one- or two-word label with a colon that announces what follows. Chat messages are where it shows most.
+
+Bad: `Heads up: the issuer check is a file of its own on main now, tests included.`
+Good: `The issuer check is a file of its own on main now, tests included.`
+
+Bad: `Quick note: the lockfile is pnpm 11 now.`
+Good: `The lockfile is pnpm 11 now.`
+
+Bad: `Una cosa: il token sta nel file, non nell'env.`
+Good: `Il token sta nel file, non nell'env.`
+
 ## 4. Stock endings and recaps
 
 Machine text summarizes itself. Human text stops.
